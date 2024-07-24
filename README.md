@@ -22,8 +22,17 @@ This web application allows you to efficiently manage your library's book collec
 
 To get started with this project:
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd taskredtag`
-3. Install the dependencies: `pip install -r requirements.txt`
-4. Run the application: `python run.py`
-5. Open your browser and go to `http://127.0.0.1:5000`
+1. git clone https://github.com/moved228/taskredtag.git
+2. cd taskredtag
+3. Do next commands
+- **Linux and macOS:**
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+python3 ./run.py
+- **Windows:**
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python .\run.py
+4. open http://127.0.0.1:5000
