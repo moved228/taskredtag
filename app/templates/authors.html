@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}Authors{% endblock %}
+
+{% block content %}
+    <h2>Authors</h2>
+    <a href="{{ url_for('main.add_author') }}">Add Author</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for author in authors %}
+                <tr>
+                    <td>{{ author.name }}</td>
+                    <td>
+                        <a href="{{ url_for('main.delete_author', author_id=author.id) }}">Delete</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
