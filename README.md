@@ -33,5 +33,5 @@ To get started with this project:
    - python -m venv venv
    - venv\Scripts\activate
    - pip install -r requirements.txt
-  4.python .\run.py
-5. open http://127.0.0.1:5000
+   - python .\run.py
+5. Open http://127.0.0.1:5000
