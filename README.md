@@ -24,15 +24,14 @@ To get started with this project:
 
 1. git clone https://github.com/moved228/taskredtag.git
 2. cd taskredtag
-3. Do next commands
-- **Linux and macOS:**
-python3 -m venv venv
-source venv/bin/activate
-pip3 install -r requirements.txt
-python3 ./run.py
-- **Windows:**
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python .\run.py
-4. open http://127.0.0.1:5000
+3. **Linux and macOS:**
+   - python3 -m venv venv
+   - source venv/bin/activate
+   - pip3 install -r requirements.txt
+   - python3 ./run.py
+4. **Windows:**
+   - python -m venv venv
+   - venv\Scripts\activate
+   - pip install -r requirements.txt
+  4.python .\run.py
+5. open http://127.0.0.1:5000
